@@ -1,0 +1,97 @@
+.top-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #e4f9f5;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+.top-container > h1{
+    color: black;
+    border-right: 5px solid black;
+    width: 24%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(11),
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{ border-color: transparent }
+}
+@keyframes typing {
+    from{width: 0}
+}
+#intro{
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+img{
+    height: 160px;
+    width:160px;
+    border-radius:50%;
+}
+#skills{
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+#projects{
+   
+        font-family: 'Averia Libre', cursive;
+        font-family: 'Borel', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Victor Mono', monospace;
+}
+#resume{
+    
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+#footer{
+     
+    font-family: 'Averia Libre', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Victor Mono', monospace;
+}
+
+.card:hover {
+    animation: moveImage 5s infinite;
+  }
+  
+  /* Keyframes for the gradient animation */
+  @keyframes moveImage {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  .letters> a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
